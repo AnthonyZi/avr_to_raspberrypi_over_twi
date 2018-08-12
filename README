@@ -1,0 +1,4 @@
+Source codes to allow TWI communication between Atmega8 and Raspberry Pi using the TWI
+Atmega8 uses hardware TWI
+Raspberry Pi uses Software TWI (using wiringPi)
+    -> API provided to setup a slave address and implement your own callback funktion after Atmega sets a stop bit after several data bytes.
