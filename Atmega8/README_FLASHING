@@ -30,4 +30,6 @@ fuse bits:
 # 8MHz internal RC
 avrdude -p atmega8 -c rpi_1 -v -U lfuse:w:0xE4:m -U hfuse:w:0xD9:m
 # 4MHz internal RC
+avrdude -p atmega8 -c rpi_1 -v -U lfuse:w:0xE3:m -U hfuse:w:0xD9:m
+# 1MHz internal RC
 avrdude -p atmega8 -c rpi_1 -v -U lfuse:w:0xE1:m -U hfuse:w:0xD9:m
